@@ -45,6 +45,11 @@ void LinearSearch()
 		{
 			ctr++;
 			if (arr[i] == item)											//langkah 5 algoritma
+			{
+				cout << "\n" << item << "found at position" << (i + 1) << endl;
+				break;
+			}
 		}
+		if (i == n)														//langkah 5 algoritma
 	}
 }
