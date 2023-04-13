@@ -37,5 +37,10 @@ void LinearSearch()
 	{
 		//accept the number to be searched
 		cout << "\nEnter the elements you want to search: ";			//langkah 1 algoritma
+		int item;
+		cin >> item;
+
+		ctr = 0;
+		for (i = 0; i < n; i++)											//langkah 2, 3, 4 algoritma
 	}
 }
