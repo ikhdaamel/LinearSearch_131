@@ -42,5 +42,9 @@ void LinearSearch()
 
 		ctr = 0;
 		for (i = 0; i < n; i++)											//langkah 2, 3, 4 algoritma
+		{
+			ctr++;
+			if (arr[i] == item)											//langkah 5 algoritma
+		}
 	}
 }
